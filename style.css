@@ -15,14 +15,19 @@ body{
 }
 .clock-section{
     background-color: rgb(63, 62, 62);
-    height: 100px;
-    width: 20%;
+    height: 200px;
+    width: 25%;
+    border: 3px solid black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .show-time{
     color: red;
-    font-size: 20px;
+    font-size: 80px;
 }
-.ampm{
-    color: blue;
-    font-size: 15px;
+#ampm{
+    color: rgb(190, 47, 47);
+    font-size: 40px;
 }
